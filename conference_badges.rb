@@ -17,7 +17,7 @@ newArray = []
 count =1
  names.each do |name| 
    newArray << "Hello, #{name}! You'll be assigned to room #{count}!"
-   count ++
-end 
+   count += 1
+  end 
   return newArray
 end 
