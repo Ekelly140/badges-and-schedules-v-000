@@ -24,7 +24,7 @@ end
 
 def printer(name)
 greetings = batch_badge_creator(name)
-assignments = assign_rooms(names)
+assignments = assign_rooms(name)
 newArray = []
 count = 0 
    greetins.each do |greets|
