@@ -28,7 +28,7 @@ assignments = assign_rooms(name)
 newArray = []
 count = 0 
    greetings.each do |greets|
-     puts "#{greets} }"
+     puts "#{greets}}"
      count += 1
    end 
 
