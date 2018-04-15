@@ -27,7 +27,7 @@ greetings = batch_badge_creator(name)
 assignments = assign_rooms(name)
 newArray = []
 count = 0 
-   greetins.each do |greets|
+   greetings.each do |greets|
      puts "#{greets} #{assignments[count]}"
      count += 1
    end 
