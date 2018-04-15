@@ -8,6 +8,10 @@ def batch_badge_creator(name)
   newArray = []
   name.each do |name|
   newArray << "Hello, my name is #{name}."
-  return newArray
-  end
+   end
+    return newArray
+end 
+
+def assign_rooms
+  
 end 
