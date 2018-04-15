@@ -29,7 +29,7 @@ newArray = []
 count = 0 
    greetings.each do |greets|
      puts "#{greets}"
-     puts "#{assignments[count]"
+     puts "#{assignments[count]}"
      count += 1
    end 
 
