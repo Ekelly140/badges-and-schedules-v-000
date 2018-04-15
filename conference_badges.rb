@@ -21,3 +21,10 @@ count =1
   end 
   return newArray
 end 
+
+def printer(name)
+greetings = []
+assignments = []
+  
+
+end 
