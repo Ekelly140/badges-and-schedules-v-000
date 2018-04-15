@@ -23,8 +23,13 @@ count =1
 end 
 
 def printer(name)
-greetings = []
-assignments = []
-  
+greetings = batch_badge_creator(name)
+assignments = assign_rooms(names)
+newArray = []
+count = 0 
+   greetins.each do |greets|
+     puts "#{greets} #{assignments[count]}"
+     count += 1
+   end 
 
 end 
